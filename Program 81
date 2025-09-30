@@ -1,0 +1,15 @@
+
+
+<?php
+
+$visits = ($_COOKIE['visits'] ?? 0) + 1;
+
+setcookie('visits', $visits, time() + 86400*365);
+
+?>
+
+<body style="background:#222; font-family:Arial, sans-serif; color:#fff;">
+
+<h2 style="text-align:center; background:#444; color:#FFD700; padding:10px;
+
+width:50%; margin:auto; font-weight:bold; border-radius:6px;">

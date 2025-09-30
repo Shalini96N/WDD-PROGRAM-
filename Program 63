@@ -1,0 +1,5 @@
+<?php
+// r: read existing file
+$f = fopen("readme.txt", "r");
+echo fgets($f); fclose($f);
+

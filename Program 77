@@ -1,0 +1,19 @@
+<h2>Quiz Application</h2>
+
+<form method="post">
+
+ Q1: Capital of France?<br><br>
+
+ <input type="radio" name="q1" value="Paris" required>Paris <br>
+
+ <input type="radio" name="q1" value="London">London <br>
+
+ <input type="radio" name="q1" value="Berlin">Berlin<br><br>
+
+ Q2: 2 + 2 = ?<br><br>
+
+ <input type="radio" name="q2" value="3">3 <br>
+
+ <input type="radio" name="q2" value="4" required>4 <br>
+
+ <input type="radio" name="q2" value="5">5<br><br>

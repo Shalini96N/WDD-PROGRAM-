@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+<html>
+
+<head><title>File Read and Write</title></head>
+
+<body>
+
+<?php
+
+$filename = "test.txt"; // keep file in same folder as PHP file

@@ -1,0 +1,21 @@
+<?php
+
+if(isset($_POST['Submit'])){
+
+ $name=trim($_POST["emp_name"]);
+
+ $num=trim($_POST["emp_number"]);
+
+ $email=trim($_POST["emp_email"]);
+
+ if($name=="") $error="Enter Name";
+
+ elseif($num=="") $error="Enter Number";
+
+ elseif(!is_numeric($num)) $error="Number must be numeric";
+
+ elseif(strlen($num)<10) $error="Number must be 10 digits";
+
+ elseif($email=="") $error="Enter Email";
+
+ elseif(!preg_match("/^[\w.-]+@[\w.-]+\.[A-Za-z]{2,6}$/",$email)) $error="Invalid Email";

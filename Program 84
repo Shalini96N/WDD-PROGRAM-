@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<html>
+
+<head><title>Division Form</title></head>
+
+<body>
+
+<h2>Division Form</h2>
+
+<form method="post">
+
+ Dividend: <input type="number" name="dividend" required><br><br>

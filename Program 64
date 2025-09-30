@@ -1,0 +1,3 @@
+// w: truncate or create
+$f = fopen("log.txt", "w");
+fwrite($f, "New log\n"); fclose($f);
